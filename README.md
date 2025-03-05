@@ -8,9 +8,7 @@ This repository is a demonstration of abstractive summarization of news article 
 
 ![](https://github.com/hengluchang/newsum/blob/master/seq2seq.PNG)
 
-This model is trained on one million Associated Press Worldstream news stories from [English Gigaword second edition](https://catalog.ldc.upenn.edu/LDC2005T12). The examples below are based on the model trained on AWS EC2 g2.2xlarge instance for 10 epochs, which took around 20 hours.
-
-For more detailed information, please see our project research paper: [Headline Generation Using Recurrent Neural Network](https://github.com/hengluchang/newsum/blob/master/headline-generation-recurrent.pdf).
+This model is trained on one million Associated Press Worldstream news stories from [English Gigaword second edition](https://catalog.ldc.upenn.edu/LDC2005T12). 
 
 ## Examples
 
@@ -105,8 +103,3 @@ $ python execute.py
 - [Evaluation and preplexity](https://www.youtube.com/watch?v=OHyVNCvnsTo): A youtube video explaining preplexity.
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/): A blog explaning LSTM.
 
-## Research Paper References
-- [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/pdf/1409.3215.pdf)
-- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/pdf/1409.0473.pdf)
-- [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/pdf/1508.04025.pdf)
-- [Grammar as a Foreign Language](https://arxiv.org/pdf/1412.7449.pdf)
